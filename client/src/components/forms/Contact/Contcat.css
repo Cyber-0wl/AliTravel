@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    width: 100%;
+    background: black;
+    height: 155px;
+}
+
+.copyRight p {
+    text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 11px #fff, 0 0 7px #f6c719, 0 0 32px #f6c719, 0 0 116px #f6c719, 0 0 70px #f6c719, 0 0 59px #f6c719;
+}
+.list-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 81%;
+}
+
+
+.contacts h4{
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 0.1em;
+    color: #F6C719;
+    margin-bottom: 15px;
+}
+
+.contacts p {
+    color: #fff;
+    text-shadow: 0 0 1px #fbeeac, 1px 1px 0px #fbeeac, 0 0 21px #fbeeab, 0 0 58px #fbeeac, 0 0 82px #fbeeac, 0 0 75px #fbeeac, 0 0 59px #fbeeac, 0 0 151px #fbeeac;
+}
+/* svg.iconsDash{
+    color: "#FBEEAC"; 
+    width: "60px"; 
+    height: "25px"
+} */
+svg.iconsDash {
+    width: 60px;
+    height: 25px;
+    color: #FBEEAC; 
+    cursor: pointer;
+}
+.iconsDash :hover{
+    color: #F6C719;
+}

@@ -1,0 +1,59 @@
+.register-login{
+    padding: 50px 0;
+    background: radial-gradient(#C1912A , #F9D994, #FAAE0C);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.image img{
+    width: 500px;
+}
+.col-2 {
+    /* border: 2px solid red; */
+    width: 35%;
+    margin: auto;
+    /* box-shadow: 0 0 20px 0px rgb(0 0 0 / 10%); */
+    box-shadow: 0 0 10px 6px rgb(0 0 0 / 16%);
+    background: transparent;
+    position: relative;
+    height: 360px;
+}
+.form-container{
+    position: absolute;
+    top: 50px;
+    right: 110px;
+}
+.form-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Input-SignUp{
+    border: 1px solid red;
+    width: 250px;
+    height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #FBEEAC;
+    color: black;
+}
+.Btn-SignUp{
+    border: none;
+    outline: none;
+    color: #FBEEAC;
+    width: 105px;
+    height: 40px;
+    background: #3D3D39;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 16px;
+    box-shadow: 0 0 10px 6px rgb(0 0 0 / 16%);
+}
+.Btn-SignUp img{
+    width: 30px;
+}

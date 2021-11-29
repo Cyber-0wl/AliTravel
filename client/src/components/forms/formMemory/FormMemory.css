@@ -1,0 +1,86 @@
+.memories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.addMemories {
+    min-height: 416px;
+    margin-left: 45px;
+    width: 50%;
+}
+.addMemories h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    /* text-align: center; */
+    color: black;
+    font-family: sans-serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.addMemories p {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+/* .inputMemory {
+    display: block;
+    margin-bottom: 20px;
+    width: 270px;
+    height: 34px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid grey;
+    padding: 8px;
+} */
+
+input.inputMemory-countries {
+    display: block;
+    width: 270px;
+    height: 34px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid grey;
+    padding: 8px;
+}
+input.inputMemory-message {
+    display: block;
+    width: 270px;
+    height: 34px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid grey;
+    padding: 8px;
+}
+button.memoryBtn {
+    background-color: #fdcd00;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+    border: 0.5px solid #fdcd00;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button.memoryBtn:hover{
+    background-color: black;
+    color: #fdcd00;
+}
+
+.memoriesPic {
+    animation: memoriesAnimation 5s linear 2s infinite alternate;
+  }
+
+
+.memoriesPic img {
+    width: 250px;
+    min-height: 200px;
+    border-radius: 15px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
